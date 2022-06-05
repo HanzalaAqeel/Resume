@@ -1,0 +1,42 @@
+* {
+    font-family: 'gotham';
+}
+body {
+    background-color: rgb(249, 235, 200);
+}
+.paragraph1 {
+    background-color: rgb(254, 251, 231);
+}
+.pic {
+    border: 2px solid black;
+    display: block;
+    margin-left: auto;
+}
+.line {
+    border:1px solid rgb(160, 188, 194);
+}
+.p2 {
+    color: maroon;
+}
+.contact a:visited{
+    color: maroon;
+}
+.contact a:link{
+    color: black;
+}
+.contact a:hover{
+    color: brown;
+}
+.contact a:active{
+    color: red;
+}
+.contact {
+    float: left;
+    width: 33.33%;
+    padding: 5px;
+}
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+}
