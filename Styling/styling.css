@@ -9,8 +9,7 @@ body {
 }
 .pic {
     border: 2px solid black;
-    display: block;
-    margin-left: auto;
+    float: right;
 }
 .line {
     border:1px solid rgb(160, 188, 194);
